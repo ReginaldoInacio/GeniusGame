@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap');
+body {
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+}
+
+.titulo{
+    position: absolute;
+    font-size: 200px;
+    
+  }
+.subtitulo{
+    position: absolute;
+    margin-top: 250px;
+
+}
+.paragrafo{
+    position: absolute;
+    margin-top: 350px;
+}
+
+.btn{
+    position: absolute;
+	background-color: crimson;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+    cursor: pointer;
+}
+.btn:hover{
+	background-color: #fff;
+	border: 2px solid crimson;
+  color: #000;
+	cursor: pointer;
+}
+
+.banner{
+    display: flex;
+    height: 100vh;
+    width: auto;
+    align-items: center;
+    justify-content: center ;
+    color: #ffffff;
+}
+.homem{
+    margin-left: 0;
+    display: flex;
+    position: flex;
+    height: 500px;
+    width: auto;
+}
+
+.mulher{
+    margin-right: 500px;
+    display: flex;
+    position: flex;
+    height: 500px;
+    width: auto;
+}
+
+.main-game {
+    background-color: rgb(42, 41, 41);
+    height: 110vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.genius {
+    display: grid;
+    grid-template-areas: 'verde vermelho'
+    'amarelo azul';
+    grid-gap: 10px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 100%;
+    width: 700px;
+    height: 700px;
+}
+
+.blue {
+    grid-area: azul;
+    background-color: blue;
+    border-bottom-right-radius: 100%;
+}
+
+.red {
+    grid-area: vermelho;
+    background-color: red;
+    border-top-right-radius: 100%;
+}
+
+.yellow {
+    grid-area: amarelo;
+    background-color: yellow;
+    border-bottom-left-radius: 100%;
+}
+
+.green {
+    grid-area: verde;
+    background-color: green;
+    border-top-left-radius: 100%;
+}
+
+.selected {
+    opacity: 0.4;
+}
